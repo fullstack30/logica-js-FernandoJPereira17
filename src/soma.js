@@ -6,6 +6,7 @@ function soma(a,b){
     }else{
         document.write("Parâmetros Invalidos!");
     }
+    return a+b;
 }
 
 soma(10,20);
