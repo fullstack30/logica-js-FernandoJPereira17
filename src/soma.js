@@ -1,6 +1,6 @@
 
 function soma(a,b){
-    
+
     var a=10;
     var b=10;
 
@@ -9,8 +9,9 @@ function soma(a,b){
     }else{
         console.log("Parâmetros Invalidos!");
     }
+
     return a+b;
-}x
+}
 
 soma(10,10);
 
