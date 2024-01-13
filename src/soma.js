@@ -1,12 +1,16 @@
 
 function soma(a,b){
     
-    if(a !== typeof 'string' && b !== typeof 'string'){
+    var a=10;
+    var b=10;
+
+    if(a !== isNaN || b !== isNaN){
         console.log(a+b);
     }else{
-        document.write("Parâmetros Invalidos!");
+        console.log("Parâmetros Invalidos!");
     }
     return a+b;
-}
+}x
 
-soma(10,20);
+soma(10,10);
+
