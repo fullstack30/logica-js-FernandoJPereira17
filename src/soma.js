@@ -1,17 +1,11 @@
 
 function soma(a,b){
-
-    var a=10;
-    var b=10;
+    let a = parseInt(a);
+    let b= parseInt (b);
 
     if(a !== isNaN || b !== isNaN){
-        console.log(a+b);
+        return a + b;
     }else{
-        console.log("Parâmetros Invalidos!");
+        return("Parâmetros Invalidos!");
     }
-
-    return a+b;
 }
-
-soma(10,10);
-
