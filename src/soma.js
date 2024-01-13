@@ -1,7 +1,7 @@
 
 function soma(a,b){
     let a = parseInt(a);
-    let b= parseInt (b);
+    let b = parseInt (b);
 
     if(a !== isNaN || b !== isNaN){
         return a + b;
@@ -9,3 +9,4 @@ function soma(a,b){
         return("Parâmetros Invalidos!");
     }
 }
+soma(a,b);
