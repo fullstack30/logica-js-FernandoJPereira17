@@ -1,10 +1,10 @@
 
 function soma(a,b){
     
-    if (a !== typeof 'string' && b !== typeof 'string'){
-        return soma(a,b);
-    }else {
-        console.log("Parâmetros Inválidos");    
+    if(a !== typeof 'string' && b !== typeof 'string'){
+        console.log(a+b);
+    }else{
+        document.write("Parâmetros Invalidos!");
     }
 }
 
