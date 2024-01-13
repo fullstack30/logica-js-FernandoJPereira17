@@ -8,4 +8,4 @@ function soma(a,b){
         return("Parâmetros Invalidos!");
     }
 }
-soma(a,b);
+soma(10, 10);
