@@ -1,5 +1,6 @@
-function Soma(a, b){
+function soma(a, b){
    
     return a+b;
 }
-Soma(10, 20);
+soma(10, 20);
+
