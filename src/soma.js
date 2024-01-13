@@ -3,9 +3,10 @@ function soma(a,b){
     a = parseInt(a);
     b = parseInt (b);
 
-    if(a !== isNaN || b !== isNaN){
+    if(a == Number || b == Number){
         return a + b;
-    }else{
+    }
+    if (a != Number || b != Number){
         return("Parâmetros Invalidos!");
     }
 }
