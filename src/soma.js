@@ -1,7 +1,11 @@
+
 function soma(a,b){
-    a=10;
-    b=20;
-    return a+b;
+    
+    if (a !== typeof 'string' && b !== typeof 'string'){
+        return soma(a,b);
+    }else {
+        console.log("Parâmetros Inválidos");    
+    }
 }
 
-soma(a,b);
+soma(10,20);
